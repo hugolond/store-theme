@@ -1,5 +1,5 @@
 {
-  "vendor": "vtex",
+  "vendor": "pernambucanasqa",
   "name": "store-theme",
   "version": "5.1.0",
   "builders": {
@@ -65,7 +65,8 @@
     "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x"
+    "vtex.reviews-and-ratings": "3.x",
+    "gobotspartnerbr.gobots-questions-and-answer": "0.1.0"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

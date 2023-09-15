@@ -8,7 +8,8 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "qagobots"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -111,6 +112,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+      "qagobots-anchor",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"
