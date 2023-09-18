@@ -112,9 +112,9 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#moda-feminina",
+      "menu-item#moda-masculina",
+      "menu-item#moda-infantil"
     ],
     "props": {
       "orientation": "vertical"

@@ -4,157 +4,253 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#moda-feminina",
+      "menu-item#moda-masculina",
+      "menu-item#moda-infantil"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#moda-feminina": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-moda-feminina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/moda-feminina/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Moda Feminina",
+        "text": "Moda Feminina"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-moda-feminina"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-moda-feminina": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#moda-feminina"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#moda-feminina": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#moda-feminina-blusas",
+      "menu-item#moda-feminina-calcas",
+      "menu-item#moda-feminina-calcados"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#moda-feminina-blusas": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-moda-feminina-blusas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/moda-feminina/blusas",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Blusas",
+        "text": "Blusas"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#moda-feminina-calcas": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-moda-feminina-calcas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/moda-feminina/calcas",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Calças",
+        "text": "Calças"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#moda-feminina-calcados": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-moda-feminina-calcados",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/moda-feminina/calcados",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Calçados",
+        "text": "Calçados"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#moda-masculina": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-moda-masculina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/moda-masculina/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Moda masculina",
+        "text": "Moda masculina"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#category-moda-masculina"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#category-moda-masculina": {
     "props": {
-      "width": "100%"
+      "width": "auto"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "vtex.menu@2.x:menu#moda-masculina"
     ]
   },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#moda-masculina": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#moda-masculina-camisas",
+      "menu-item#moda-masculina-calcas",
+      "menu-item#moda-masculina-calcados"
     ]
+  },
+  "menu-item#moda-masculina-camisas": {
+    "props": {
+      "id": "menu-item-category-moda-masculina-camisas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-masculina/camisas",
+        "noFollow": false,
+        "tagTitle": "Camisas",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#moda-masculina-calcas": {
+    "props": {
+      "id": "menu-item-category-moda-masculina-calcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-masculina/calcas",
+        "noFollow": false,
+        "tagTitle": "Calças",
+        "text": "Calças"
+      }
+    }
+  },
+  "menu-item#moda-masculina-calcados": {
+    "props": {
+      "id": "menu-item-category-moda-masculina-calcados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-masculina/calcados",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
+  },
+  "menu-item#moda-infantil": {
+    "props": {
+      "id": "menu-item-category-moda-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-infantil/",
+        "noFollow": false,
+        "tagTitle": "Moda infantil",
+        "text": "Moda infantil"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-moda-infantil"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-moda-infantil": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#moda-infantil"
+    ]
+  },
+  "vtex.menu@2.x:menu#moda-infantil": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-infantil-blusas",
+      "menu-item#moda-infantil-calcas",
+      "menu-item#moda-infantil-calcados"
+    ]
+  },
+  "menu-item#moda-infantil-blusas": {
+    "props": {
+      "id": "menu-item-category-moda-infantil-blusas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-infantil/blusas",
+        "noFollow": false,
+        "tagTitle": "Blusas",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#moda-infantil-calcas": {
+    "props": {
+      "id": "menu-item-category-moda-infantil-calcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-infantil/calcas",
+        "noFollow": false,
+        "tagTitle": "Calças",
+        "text": "Calças"
+      }
+    }
+  },
+  "menu-item#moda-infantil-calcados": {
+    "props": {
+      "id": "menu-item-category-moda-infantil-calcados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-infantil/calcados",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
   },
   "menu-item#about-us": {
     "props": {
